@@ -16,6 +16,7 @@ class TextInput extends React.Component {
     this.setState({
       value: e.target.value,
     });
+    this.props.setValues(e.target.id, e.target.value);
   };
 
   onSubmitInput = (e) => {
