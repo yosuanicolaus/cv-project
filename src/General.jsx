@@ -16,6 +16,7 @@ class General extends React.Component {
     this.setState({
       [id]: newValue,
     });
+    this.props.updateData(id, newValue);
   };
 
   render() {

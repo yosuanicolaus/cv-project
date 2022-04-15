@@ -15,6 +15,7 @@ class DateInput extends React.Component {
     this.setState({
       date: new Date(e.target.value).toISOString().split("T")[0],
     });
+    this.props.setValues(e.target.id, e.target.value);
   };
 
   render() {
