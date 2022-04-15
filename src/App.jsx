@@ -2,6 +2,7 @@ import React from "react";
 import General from "./General";
 import Education from "./Education";
 import Experience from "./Experience";
+import "./styles/style.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -36,6 +37,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <header>
+          <h1>CV Creator</h1>
+          <div className="push-right">© Yosua Nicolaus 2022</div>
+        </header>
         <General updateData={this.updateData} />
         <Education updateData={this.updateData} />
         <Experience updateData={this.updateData} />

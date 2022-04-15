@@ -21,7 +21,7 @@ class General extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="General">
         <h2>General</h2>
         <TextInput
           placeholder="input name here"

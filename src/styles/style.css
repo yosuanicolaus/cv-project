@@ -1,0 +1,40 @@
+:root {
+  --c1: #6b588a;
+  --c2: #7c94a9;
+  --c3: #97bdaf;
+  --c4: #87a794;
+  --c5: #f5ebd2;
+}
+
+body {
+  background-color: var(--c3);
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+input {
+  background-color: var(--c5);
+  border-radius: 20px;
+  padding-left: 5px;
+}
+
+header {
+  background-color: var(--c1);
+  color: var(--c5);
+}
+
+#General {
+  background-color: var(--c4);
+}
+
+#Education {
+  background-color: var(--c4);
+}
+
+#Experience {
+  background-color: var(--c4);
+}

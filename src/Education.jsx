@@ -22,7 +22,7 @@ class Education extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="Education">
         <h2>Education</h2>
         <TextInput
           placeholder="your school name here"
