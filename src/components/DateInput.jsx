@@ -20,8 +20,8 @@ class DateInput extends React.Component {
 
   render() {
     return (
-      <div>
-        <label htmlFor={this.id}>{this.type} date: </label>
+      <div className="mini flat">
+        <label htmlFor={this.id}>{this.type}: </label>
         <input
           type="date"
           name={this.id}

@@ -46,7 +46,10 @@ class App extends React.Component {
             <General updateData={this.updateData} />
             <Education updateData={this.updateData} />
             <Experience updateData={this.updateData} />
-            <button onClick={this.logData}>Log data</button>
+            <div>
+              <button onClick={this.logData}>Log data</button>
+              <button onClick={this.logData}>Print CV</button>
+            </div>
           </main>
           <nav>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum

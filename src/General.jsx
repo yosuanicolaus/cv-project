@@ -21,30 +21,34 @@ class General extends React.Component {
 
   render() {
     return (
-      <div id="General">
-        <h2>General</h2>
-        <TextInput
-          placeholder="input name here"
-          id="name"
-          setValues={this.setValues}
-        />
-        <TextInput
-          placeholder="write a short bio about yourself"
-          id="bio"
-          setValues={this.setValues}
-        />
-        <TextInput
-          placeholder="your email here"
-          id="mail"
-          type="email"
-          setValues={this.setValues}
-        />
-        <TextInput
-          placeholder="your phone number here"
-          id="phone"
-          type="tel"
-          setValues={this.setValues}
-        />
+      <div id="General" className="main">
+        {/* <h2>General</h2> */}
+        <div>
+          <TextInput
+            placeholder="input name here"
+            id="name"
+            setValues={this.setValues}
+          />
+          <TextInput
+            placeholder="write a short bio about yourself"
+            id="bio"
+            setValues={this.setValues}
+          />
+        </div>
+        <div className="mini">
+          <TextInput
+            placeholder="your email here"
+            id="mail"
+            type="email"
+            setValues={this.setValues}
+          />
+          <TextInput
+            placeholder="your phone number here"
+            id="phone"
+            type="tel"
+            setValues={this.setValues}
+          />
+        </div>
       </div>
     );
   }

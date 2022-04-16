@@ -23,25 +23,29 @@ class Experience extends React.Component {
 
   render() {
     return (
-      <div id="Experience">
-        <h2>Experience</h2>
-        <TextInput
-          placeholder="your position here"
-          id="position"
-          setValues={this.setValues}
-        />
-        <TextInput
-          placeholder="your company here"
-          id="company"
-          setValues={this.setValues}
-        />
-        <TextInput
-          placeholder="job description here"
-          id="job"
-          setValues={this.setValues}
-        />
-        <DateInput type="Start" id="d3" setValues={this.setValues} />
-        <DateInput type="End" id="d4" setValues={this.setValues} />
+      <div id="Experience" className="main">
+        <div className="big">
+          <h2>Experience</h2>
+          <TextInput
+            placeholder="your position here"
+            id="position"
+            setValues={this.setValues}
+          />
+          <TextInput
+            placeholder="your company here"
+            id="company"
+            setValues={this.setValues}
+          />
+          <TextInput
+            placeholder="job description here"
+            id="job"
+            setValues={this.setValues}
+          />
+        </div>
+        <div className="mini">
+          <DateInput type="Start" id="d3" setValues={this.setValues} />
+          <DateInput type="End" id="d4" setValues={this.setValues} />
+        </div>
       </div>
     );
   }
