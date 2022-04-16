@@ -98,15 +98,24 @@ main {
   grid-template-columns: 60px 1fr;
 }
 
-#Education {
-  background-color: var(--c5);
+.btns {
+  text-align: center;
 }
 
-#Experience {
-  background-color: var(--c5);
+.btns button {
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
 }
 
 nav {
   background-color: var(--c3);
   border-end-start-radius: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+nav h2 {
+  margin-bottom: 30px;
 }

@@ -46,16 +46,19 @@ class App extends React.Component {
             <General updateData={this.updateData} />
             <Education updateData={this.updateData} />
             <Experience updateData={this.updateData} />
-            <div>
+            <div className="btns">
               <button onClick={this.logData}>Log data</button>
               <button onClick={this.logData}>Print CV</button>
             </div>
           </main>
           <nav>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
-            sequi animi, ab fugiat beatae placeat aliquid vero unde, optio magni
-            sint. Repellendus et provident quasi vero quidem dicta temporibus
-            dolore?
+            <h2>Instructions</h2>
+            <div>
+              Fill the inputs you deem necessary. No input is obligatory. After
+              you're done with the input, click on 'Log data' button to log your
+              data on your console (press F12 and go to the console tab to see
+              your output) or 'Print CV' button to print your data.
+            </div>
           </nav>
         </div>
       </div>
