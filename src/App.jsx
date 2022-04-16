@@ -41,10 +41,20 @@ class App extends React.Component {
           <h1>CV Creator</h1>
           <div className="push-right">© Yosua Nicolaus 2022</div>
         </header>
-        <General updateData={this.updateData} />
-        <Education updateData={this.updateData} />
-        <Experience updateData={this.updateData} />
-        <button onClick={this.logData}>Log data</button>
+        <div className="content">
+          <main>
+            <General updateData={this.updateData} />
+            <Education updateData={this.updateData} />
+            <Experience updateData={this.updateData} />
+            <button onClick={this.logData}>Log data</button>
+          </main>
+          <nav>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+            sequi animi, ab fugiat beatae placeat aliquid vero unde, optio magni
+            sint. Repellendus et provident quasi vero quidem dicta temporibus
+            dolore?
+          </nav>
+        </div>
       </div>
     );
   }
